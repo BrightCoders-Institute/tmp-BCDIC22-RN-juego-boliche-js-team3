@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-expressions
-module.exports
+
 
 // eslint-disable-next-line no-unused-vars
 class Juego {
@@ -85,10 +85,16 @@ class Juego {
         this.gameTurns.third = extra
         this.gameTurns[index] = { ...turn, total: previous + current + extra }
       } else if (turn.type === 'spare') {
+        console.log
         const previous = this.gameTurns[index - 1].total
-        const next = this.gameTurns[index + 1].first
-        const current = this.gameTurns[index].total
-        this.gameTurns[index] = { ...turn, total: previous + next + current }
+        if(this.gameTurns[index+1].type === "strike"){
+          const next = this.gameTurns[index + 1].total
+          return next
+        }else{
+          const next = this.gameTurns[index + 1].first
+          return next
+        }
+
       }
 
       // normal
@@ -108,9 +114,13 @@ class Juego {
   }
 }
 
+
 // eslint-disable-next-line no-unused-vars
 const juego = new Juego()
 
 juego.firstScore()
 juego.scoreUpdated()
-console.log(juego)
+console.log(juego.gameTurns,'segundo')
+
+module.exports = Juego
+

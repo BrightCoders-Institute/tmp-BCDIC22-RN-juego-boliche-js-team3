@@ -4,7 +4,8 @@
 	"description": "![BrightCoders Logo](img/logo.png)",
 	"main": "bowlingGame.js",
 	"script": {
-		"lint": "eslint"
+		"lint": "eslint",
+		"test": "jest"
 	},
 	"dependencies": {
 		"acorn": "^8.8.1",
@@ -179,7 +180,7 @@
 		"prettier": "2.8.1"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
