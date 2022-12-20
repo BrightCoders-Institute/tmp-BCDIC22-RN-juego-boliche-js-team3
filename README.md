@@ -16,4 +16,5 @@ Things you may want to cover:
 - Credits
 - Badges
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/61c6607d2e1f46db9c2243642ea70c45)](https://app.codacy.com/gh/BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team3?utm_source=github.com&utm_medium=referral&utm_content=BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team3&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2735dea8c0de41319f265026656a209a)](https://www.codacy.com/gh/BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team3/dashboard?utm_source=github.com&utm_medium=referral&utm_content=BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team3&utm_campaign=Badge_Grade)
