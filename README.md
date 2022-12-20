@@ -40,8 +40,8 @@ npm test -- --coverage
 
 # Creditos
 Integrantes del equipo del proyecto:
-- [@garzo9](https://github.com/garzo94)
-- [@GaddPat609](https://github.com/GaddPat609)
+- [@garzo94](https://github.com/garzo94)
+- [@GaddPat0609](https://github.com/GaddPat0609)
 - [@arthurchina92](https://github.com/arthurchina92)
 
 # Insignias de evaluadores de código
